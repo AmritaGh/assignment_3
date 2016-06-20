@@ -9,7 +9,6 @@ public class Retirement {
 	
 	public static int age_goal_reached(int age, int salary, double percentage_saved, int desired_goal) {	
 		double age_added = desired_goal/(salary*((percentage_saved/100)*2));
-		System.out.println(age_added);
 		double goal_age = ((double)age) + age_added;	
 		
 		if (goal_age < 100) {
